@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <script src="axios.js"></script>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <strong>US Covid-19 Status</strong>
+    <a href="https://github.com/karakusnavy/covid19-google-chrome-extensions" target="_newblank" style="float:right"
+      id="date">GITHUB</a>
+  </div>
+  <div class="content">
+    <table>
+      <tr>
+        <td>
+          <strong>
+            Location:
+          </strong>
+        </td>
+        <td>US</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>
+            States:
+          </strong>
+        </td>
+        <td id="states"></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>
+            Positive:
+          </strong>
+        </td>
+        <td id="positive"></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>
+            Negative:
+          </strong>
+        </td>
+        <td id="negative"></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>
+            Pending:
+          </strong>
+        </td>
+        <td id="pending"></td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>
